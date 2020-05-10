@@ -4,4 +4,4 @@ fn main() {
     println!("My course is {} and my quarter is : {}",course,quarter);
     let course = course.len(); //method length //usize
     println!("Length is : {}",course);
-}
+} 
