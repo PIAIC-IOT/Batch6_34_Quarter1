@@ -1,3 +1,4 @@
+
 use std::io;
 
 //Referencing 
@@ -10,3 +11,30 @@ fn main () {
 fn move_ownership(data: &String) {
     println!("from the move ownership function: {}",data);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
