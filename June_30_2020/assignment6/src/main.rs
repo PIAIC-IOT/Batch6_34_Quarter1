@@ -11,7 +11,11 @@ fn main() {
         io::stdin().read_line(&mut player).expect("Only Numbers Allowed");
         //logic to entery only numbers
         let player :u8 = match player.trim().parse() {
-            Ok(p)   => p,
+            Ok(p)   => {
+                if p < 2 {
+                    println!("There should be more than 1 players");
+                continue
+                } else { p}},
             Err(_)  => {
                 println!("Only Numbers Allowed, Try Again");
                 continue
